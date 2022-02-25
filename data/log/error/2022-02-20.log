@@ -1,0 +1,105 @@
+2022-02-20 02:53:06	C:\xampp\htdocs\dokuwiki\inc\media.php(499)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'tuan_11.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-20 14:02:51	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_5.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_5.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:05:57	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('gi\xE1\xBA\xA3i_d\xE1\xBB\x81_cuo...', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('gi\xE1\xBA\xA3i_d\xE1\xBB\x81_cuo...', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:06:09	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('trac_nghiem_ppt...', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('trac_nghiem_ppt...', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:16:05	C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\ConnectionPool\StaticNoPingConnectionPool.php(64)	Elasticsearch\Common\Exceptions\NoNodesAvailableException: No alive nodes found in your cluster
+  #0 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Transport.php(82): Elasticsearch\ConnectionPool\StaticNoPingConnectionPool->nextConnection()
+  #1 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Transport.php(99): Elasticsearch\Transport->getConnection()
+  #2 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(297): Elasticsearch\Transport->performRequest('POST', '/dokuwiki/_doc/...', Array, '{"name":"wiki_t...', Array)
+  #3 C:\xampp\htdocs\dokuwiki\vendor\react\promise\src\FulfilledPromise.php(28): Elasticsearch\Connections\Connection->Elasticsearch\Connections\{closure}(Array)
+  #4 C:\xampp\htdocs\dokuwiki\vendor\ezimuel\ringphp\src\Future\CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+  #5 C:\xampp\htdocs\dokuwiki\vendor\ezimuel\ringphp\src\Core.php(341): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+  #6 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(345): GuzzleHttp\Ring\Core::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+  #7 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(241): Elasticsearch\Connections\Connection->Elasticsearch\Connections\{closure}(Array, Object(Elasticsearch\Connections\Connection), Object(Elasticsearch\Transport), Array)
+  #8 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Transport.php(110): Elasticsearch\Connections\Connection->performRequest('POST', '/dokuwiki/_doc/...', Array, '{"name":"wiki_t...', Array, Object(Elasticsearch\Transport))
+  #9 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php(1637): Elasticsearch\Transport->performRequest('POST', '/dokuwiki/_doc/...', Array, Array, Array)
+  #10 C:\xampp\htdocs\dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php(829): Elasticsearch\Client->performRequest(Object(Elasticsearch\Endpoints\Index))
+  #11 C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(95): Elasticsearch\Client->index(Array)
+  #12 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require('C:\\xampp\\htdocs...')
+  #13 [internal function]: load_autoload('dokuwiki/Action...')
+  #14 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #15 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #16 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #17 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #18 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #19 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #20 {main}
+2022-02-20 14:30:04	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_7.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_7.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:30:09	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_8.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_8.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:30:13	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_9.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_9.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:56:32	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('phuong-phap-tin...', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('phuong-phap-tin...', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:59:14	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_3_presenta...', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_3_presenta...', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:59:21	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_4_presenta...', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_4_presenta...', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:59:24	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_5.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_5.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}
+2022-02-20 14:59:28	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: key_exists(): Argument #2 ($array) must be of type array, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): key_exists('tuan_6.pdf', '{"_id":"62112ad...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\mediamanager.php(104): media_delete('tuan_6.pdf', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(227): require_once('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediadetails()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediadetails')
+  #5 {main}

@@ -1,0 +1,200 @@
+2022-01-22 18:48:07	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:48:21	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:49:44	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:50:42	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:50:45	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:52:35	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:53:42	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:55:04	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:55:15	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:55:44	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:56:07	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:56:10	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:56:44	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 18:59:26	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:00:36	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\elasticsearch\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:01:10	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:01:52	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:01:55	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\elasticsearch\elasticsearch\src\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:02:40	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}
+2022-01-22 19:02:43	C:\xampp\htdocs\dokuwiki\inc\Action\Save.php(19)	Error: Class "dokuwiki\vendor\Elasticsearch\ClientBuilder" not found
+  #0 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require()
+  #1 [internal function]: load_autoload('dokuwiki/Action...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(184): class_exists('dokuwiki\\Action...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(81): dokuwiki\ActionRouter->loadAction('save')
+  #4 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(48): dokuwiki\ActionRouter->setupAction('save')
+  #5 C:\xampp\htdocs\dokuwiki\inc\ActionRouter.php(60): dokuwiki\ActionRouter->__construct()
+  #6 C:\xampp\htdocs\dokuwiki\inc\actions.php(16): dokuwiki\ActionRouter::getInstance(true)
+  #7 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #8 {main}

@@ -1,0 +1,27 @@
+2022-02-18 03:13:37	C:\xampp\htdocs\dokuwiki\inc\media.php(529)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(346): media_save(Array, 'tuan_11.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-18 03:14:02	C:\xampp\htdocs\dokuwiki\inc\media.php(529)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(346): media_save(Array, 'tuan_12.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-18 03:19:10	C:\xampp\htdocs\dokuwiki\inc\media.php(528)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(345): media_save(Array, 'tuan_8.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-18 04:34:28	C:\xampp\htdocs\dokuwiki\inc\media.php(525)	dokuwiki\Exception\FatalException: Maximum execution time of 120 seconds exceeded
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2022-02-18 04:34:28	C:\xampp\htdocs\dokuwiki\inc\media.php(525)	dokuwiki\Exception\FatalException: Maximum execution time of 120 seconds exceeded
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2022-02-18 04:34:28	C:\xampp\htdocs\dokuwiki\inc\media.php(525)	dokuwiki\Exception\FatalException: Maximum execution time of 120 seconds exceeded
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}

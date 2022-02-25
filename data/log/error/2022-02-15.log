@@ -1,0 +1,7 @@
+2022-02-15 01:56:35	C:\xampp\htdocs\dokuwiki\inc\media.php(484)	Error: Object of class CURLFile could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(484): curl_setopt_array(Object(CurlHandle), Array)
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(317): media_save(Array, 'c8_daodongdient...', false, 255, 'copy')
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #5 {main}

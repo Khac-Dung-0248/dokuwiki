@@ -1,0 +1,99 @@
+2022-02-08 02:47:37	C:\xampp\htdocs\dokuwiki\inc\media.php(1519)	Error: Object of class dokuwiki\Form\Form could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #5 {main}
+2022-02-08 02:48:24	C:\xampp\htdocs\dokuwiki\inc\media.php(1519)	Error: Object of class dokuwiki\Form\Form could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #5 {main}
+2022-02-08 02:48:42	C:\xampp\htdocs\dokuwiki\inc\media.php(1519)	Error: Object of class dokuwiki\Form\Form could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #5 {main}
+2022-02-08 02:48:54	C:\xampp\htdocs\dokuwiki\inc\media.php(1520)	Error: Object of class dokuwiki\Form\Form could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #5 {main}
+2022-02-08 02:49:27	C:\xampp\htdocs\dokuwiki\inc\media.php(1520)	Error: Object of class dokuwiki\Form\Form could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #5 {main}
+2022-02-08 05:59:55	C:\xampp\htdocs\dokuwiki\inc\common.php(370)	TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given
+  #0 C:\xampp\htdocs\dokuwiki\inc\common.php(370): htmlspecialchars(Array)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Form\InputElement.php(151): buildAttributes(Array)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Form\InputElement.php(164): dokuwiki\Form\InputElement->mainElementHTML()
+  #3 C:\xampp\htdocs\dokuwiki\inc\Form\Form.php(492): dokuwiki\Form\InputElement->toHTML()
+  #4 C:\xampp\htdocs\dokuwiki\inc\media.php(1522): dokuwiki\Form\Form->toHTML('FORM_UPLOAD_OUT...')
+  #5 C:\xampp\htdocs\dokuwiki\inc\media.php(913): media_uploadform('', 8, true)
+  #6 C:\xampp\htdocs\dokuwiki\inc\template.php(1411): media_tab_upload('', 8, NULL)
+  #7 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(212): tpl_mediaFileList()
+  #8 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMedialist()
+  #9 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('medialist')
+  #10 {main}
+2022-02-08 07:41:09	C:\xampp\htdocs\dokuwiki\inc\Form\Element.php(68)	ParseError: syntax error, unexpected token "if", expecting "," or ";"
+  #0 C:\xampp\htdocs\dokuwiki\inc\Form\Form.php(14): load_autoload('dokuwiki/Form/E...')
+  #1 C:\xampp\htdocs\dokuwiki\inc\load.php(129): require('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\template.php(679): load_autoload('dokuwiki/Form/F...')
+  #3 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #4 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #5 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #6 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #7 {main}
+2022-02-08 10:57:52	C:\xampp\htdocs\dokuwiki\inc\template.php(698)	Error: Call to a member function val() on string
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 10:57:55	C:\xampp\htdocs\dokuwiki\inc\template.php(698)	Error: Call to a member function val() on string
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 10:57:57	C:\xampp\htdocs\dokuwiki\inc\template.php(698)	Error: Call to a member function val() on string
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 13:55:57	C:\xampp\htdocs\dokuwiki\inc\template.php(686)	Error: Call to a member function addClass() on null
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 14:45:30	C:\xampp\htdocs\dokuwiki\inc\template.php(686)	Error: Call to a member function addClass() on null
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 14:45:50	C:\xampp\htdocs\dokuwiki\inc\template.php(686)	Error: Call to a member function addClass() on string
+  #0 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #2 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #4 {main}
+2022-02-08 14:47:56	C:\xampp\htdocs\dokuwiki\inc\Form\Form.php(195)	ParseError: syntax error, unexpected token "}", expecting ";"
+  #0 C:\xampp\htdocs\dokuwiki\inc\template.php(679): load_autoload('dokuwiki/Form/F...')
+  #1 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\tpl_header.php(58): tpl_searchform()
+  #2 C:\xampp\htdocs\dokuwiki\lib\tpl\dokuwiki\main.php(31): include('C:\\xampp\\htdocs...')
+  #3 C:\xampp\htdocs\dokuwiki\inc\actions.php(27): include('C:\\xampp\\htdocs...')
+  #4 C:\xampp\htdocs\dokuwiki\doku.php(122): act_dispatch()
+  #5 {main}

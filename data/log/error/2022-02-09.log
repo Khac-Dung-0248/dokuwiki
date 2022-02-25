@@ -1,0 +1,112 @@
+2022-02-09 00:49:04	C:\xampp\htdocs\dokuwiki\inc\media.php(297)	Error: Object of class dokuwiki\Input\Input could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #2 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #3 {main}
+2022-02-09 00:49:30	C:\xampp\htdocs\dokuwiki\inc\media.php(297)	Error: Object of class dokuwiki\Input\Input could not be converted to string
+  #0 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #2 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #3 {main}
+2022-02-09 00:58:20	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #1 ($from) must be of type resource, null given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(NULL, Resource id #145)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 00:58:27	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #1 ($from) must be of type resource, null given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(NULL, Resource id #145)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:06:44	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #2 ($to) must be of type resource, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(Resource id #145, '')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:06:53	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #2 ($to) must be of type resource, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(Resource id #145, '')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:07:38	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #2 ($to) must be of type resource, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(Resource id #145, 'C:/xampp/htdocs...')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:08:55	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #1 ($from) must be of type resource, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream('', Resource id #146)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:09:10	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #1 ($from) must be of type resource, string given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream('abcd', Resource id #146)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:12:44	C:\xampp\htdocs\dokuwiki\inc\media.php(298)	ValueError: Path cannot be empty
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(298): fopen('', 'r')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:12:51	C:\xampp\htdocs\dokuwiki\inc\media.php(298)	ValueError: Path cannot be empty
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(298): fopen('', 'r')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:13:23	C:\xampp\htdocs\dokuwiki\inc\media.php(302)	TypeError: stream_copy_to_stream(): Argument #2 ($to) must be of type resource, bool given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(302): stream_copy_to_stream(Resource id #145, false)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 01:16:11	C:\xampp\htdocs\dokuwiki\inc\media.php(627)	ValueError: Path cannot be empty
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(627): fopen('', 'rb')
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(461): media_contentcheck(NULL, 'application/pdf')
+  #2 C:\xampp\htdocs\dokuwiki\inc\media.php(317): media_save(Array, 'vat-ly-dai-cuon...', false, 8, 'copy')
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #4 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #5 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #6 {main}
+2022-02-09 06:29:42	C:\xampp\htdocs\dokuwiki\inc\Action\Media.php(12)	dokuwiki\Exception\FatalException: Class dokuwiki\Action\Media contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (dokuwiki\Action\AbstractAction::minimumPermission)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2022-02-09 06:30:45	C:\xampp\htdocs\dokuwiki\inc\Action\Media.php(12)	dokuwiki\Exception\FatalException: Class dokuwiki\Action\Media contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (dokuwiki\Action\AbstractAction::minimumPermission)
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2022-02-09 18:04:28	C:\xampp\htdocs\dokuwiki\inc\media.php(520)	TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(520): fwrite(false, 'Some text')
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(493): media_upload_finish('C:/xampp/htdocs...', 'C:/xampp/htdocs...', 'vat-ly-dai-cuon...', 'application/pdf', false, 'copy')
+  #2 [internal function]: _media_upload_action(Array)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Extension\Event.php(133): call_user_func_array('_media_upload_a...', Array)
+  #4 C:\xampp\htdocs\dokuwiki\inc\Extension\Event.php(199): dokuwiki\Extension\Event->trigger('_media_upload_a...', true)
+  #5 C:\xampp\htdocs\dokuwiki\inc\media.php(479): dokuwiki\Extension\Event::createAndTrigger('MEDIA_UPLOAD_FI...', Array, '_media_upload_a...', true)
+  #6 C:\xampp\htdocs\dokuwiki\inc\media.php(317): media_save(Array, 'vat-ly-dai-cuon...', false, 8, 'copy')
+  #7 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #8 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #9 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #10 {main}
+2022-02-09 18:47:07	C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282)	Error: Call to undefined function dokuwiki\media_upload_xhr()
+  #0 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #1 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #2 {main}
+2022-02-09 18:53:36	C:\xampp\htdocs\dokuwiki\inc\media.php(303)	TypeError: copy(): Argument #1 ($from) must be of type string, resource given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(303): copy(Resource id #145, 'C:\nmpp\\htdocs\\d...')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-09 18:55:23	C:\xampp\htdocs\dokuwiki\inc\media.php(304)	TypeError: copy(): Argument #1 ($from) must be of type string, resource given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(304): copy(Resource id #145, false)
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 8)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}

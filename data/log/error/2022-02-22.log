@@ -1,0 +1,29 @@
+2022-02-22 02:13:03	C:\xampp\htdocs\dokuwiki\inc\media.php(500)	dokuwiki\Exception\FatalException: Maximum execution time of 120 seconds exceeded
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
+2022-02-22 02:37:35	C:\xampp\htdocs\dokuwiki\inc\media.php(506)	TypeError: json_decode(): Argument #1 ($json) must be of type string, resource given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(506): json_decode(Resource id #149, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(351): media_save(Array, 'scan-ppt-nhom-m...', false, 255, 'copy')
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #5 {main}
+2022-02-22 02:40:04	C:\xampp\htdocs\dokuwiki\inc\media.php(506)	TypeError: json_decode(): Argument #1 ($json) must be of type string, resource given
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(506): json_decode(Resource id #149, true)
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(351): media_save(Array, 'tuan_8.pdf', false, 255, 'copy')
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #5 {main}
+2022-02-22 03:52:38	C:\xampp\htdocs\dokuwiki\inc\media.php(547)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(351): media_save(Array, 'tuan_6.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-22 03:54:16	C:\xampp\htdocs\dokuwiki\inc\media.php(548)	TypeError: Cannot access offset of type string on string
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(351): media_save(Array, 'tuan_10.pdf', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}

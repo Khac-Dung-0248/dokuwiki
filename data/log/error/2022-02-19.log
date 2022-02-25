@@ -1,0 +1,35 @@
+2022-02-19 16:15:28	C:\xampp\htdocs\dokuwiki\inc\media.php(522)	ValueError: Path cannot be empty
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(522): curl_setopt(Object(CurlHandle), 10015, Array)
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'c4_tutruong_2_....', false, 255, 'copy')
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #5 {main}
+2022-02-19 16:17:33	C:\xampp\htdocs\dokuwiki\inc\media.php(522)	ValueError: Path cannot be empty
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(522): curl_setopt(Object(CurlHandle), 10015, Array)
+  #1 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'c4_tutruong_2_....', false, 255, 'copy')
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #3 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #4 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #5 {main}
+2022-02-19 17:18:31	C:\xampp\htdocs\dokuwiki\inc\media.php(497)	Error: Cannot use a scalar value as an array
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'tuan_2_presenta...', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-19 17:19:15	C:\xampp\htdocs\dokuwiki\inc\media.php(497)	Error: Cannot use a scalar value as an array
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'tuan_3_presenta...', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-19 17:24:27	C:\xampp\htdocs\dokuwiki\inc\media.php(501)	Error: Cannot use a scalar value as an array
+  #0 C:\xampp\htdocs\dokuwiki\inc\media.php(344): media_save(Array, 'tuan_2_presenta...', false, 255, 'copy')
+  #1 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(282): media_upload_xhr('', 255)
+  #2 C:\xampp\htdocs\dokuwiki\inc\Ajax.php(24): dokuwiki\Ajax->callMediaupload()
+  #3 C:\xampp\htdocs\dokuwiki\lib\exe\ajax.php(22): dokuwiki\Ajax->__construct('mediaupload')
+  #4 {main}
+2022-02-19 17:55:09	C:\xampp\htdocs\dokuwiki\inc\media.php(493)	dokuwiki\Exception\FatalException: Maximum execution time of 120 seconds exceeded
+  #0 [internal function]: dokuwiki\ErrorHandler::fatalShutdown()
+  #1 {main}
